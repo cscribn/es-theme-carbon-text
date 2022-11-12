@@ -62,13 +62,14 @@ originally based on: "simple" by nils bonenberger
 			<color>${themeColor}</color>
 		</text>
 
-		<image name="controller" extra="true">
-			<path>${themeArtFolder}/controllers/${system.theme}.svg</path>
-			<maxSize>1920 374</maxSize>
+		<text name="systemText" extra="true">
+			<fontPath>${themeFont}</fontPath>
+			<fontSize>${themeGamelistFontSize}</fontSize>
+			<forceUppercase>true</forceUppercase>
 			<pos>960 207</pos>
 			<origin>0.5 0.5</origin>
 			<color>${themeColor}</color>
-		</image>
+		</text>
 
 		<helpsystem name="help">
 			<iconColor>7d7d7d</iconColor>
@@ -144,13 +145,14 @@ originally based on: "simple" by nils bonenberger
 
 	<!-- basic -->
 	<view name="basic">
-		<image name="controller" extra="true">
-			<path>${themeArtFolder}/controllers/${system.theme}.svg</path>
-			<maxSize>576 134</maxSize>
+		<text name="systemText" extra="true">
+			<fontPath>${themeFont}</fontPath>
+			<fontSize>${themeGamelistFontSize}</fontSize>
+			<forceUppercase>true</forceUppercase>
 			<pos>1440 87</pos>
 			<origin>0.5 0.5</origin>
 			<color>${themeColor}</color>
-		</image>
+		</text>
 
 		<textlist name="gamelist">
 			<fontPath>${themeFont}</fontPath>
@@ -170,13 +172,14 @@ originally based on: "simple" by nils bonenberger
 
 	<!-- detailed, video -->
 	<view name="detailed, video">
-		<image name="controller" extra="true">
-			<path>${themeArtFolder}/controllers/${system.theme}.svg</path>
-			<maxSize>364 134</maxSize>
+		<text name="systemText" extra="true">
+			<fontPath>${themeFont}</fontPath>
+			<fontSize>${themeGamelistFontSize}</fontSize>
+			<forceUppercase>true</forceUppercase>
 			<pos>960 87</pos>
 			<origin>0.5 0.5</origin>
 			<color>${themeColor}</color>
-		</image>
+		</text>
 
 		<image name="shadow" extra="true">
 			<path>${themeArtFolder}/shadow.png</path>
