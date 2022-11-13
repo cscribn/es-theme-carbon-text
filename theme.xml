@@ -1,12 +1,3 @@
-<!--
-Theme: Carbon
-version: 2.5
-author: Tomas Jakobsson (Tomaz)
-license: creative commons CC-BY-NC-SA
-originally based on: "Carbon 2.4" by Eric Hettervik (Rookervik)
-originally based on: "simple" by nils bonenberger
--->
-
 <theme>
 	<formatVersion>6</formatVersion>
 	<resolution>1920 1080</resolution>
