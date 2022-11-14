@@ -1,6 +1,6 @@
 # Carbon Text Theme for EmulationStation
 
-Have you ever had trouble dicerning a system based on its logo, such as `FBNeo's "F"`? Have you wondered whether `Game Gear` should be sorted with the `Gs`, for `Game`, or the `Ss`, for `Sega`? This theme was designed to address those issues. Instead of displaying the system's controller, it instead displays the full system name. Also, minimal meta data is utilized.
+Have you ever had trouble dicerning a system based on its logo, such as `FBNeo's "F"`? Have you wondered whether `Game Gear` should be sorted with the `Gs`, for `Game`, or the `Ss`, for `Sega`? This theme was designed to address those issues. Instead of displaying the system's controller, it instead displays the full system name. I like to use the names from the [Libretro Database](https://db.libretro.com). Also, minimal meta data is utilized.
 
 ![System Select](README/System%20Select.png) ![Detailed Game List](README/Detailed%20Game%20List.png)
 
