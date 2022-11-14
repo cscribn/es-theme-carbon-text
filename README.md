@@ -1,6 +1,6 @@
 # Carbon Text Theme for EmulationStation
 
-Named on account of swapping system art in for controller art, and leaving logo text in place of the system art. Utilizes minimal meta data. Useful for displaying the full system name in EmulationStation since system logos can be ambiguous (e.g. FBNeo's "F").
+Have you ever had trouble dicerning a system based on its logo, such as `FBNeo's "F"`? Have you wondered whether `Game Gear` should be sorted with the `Gs`, for `Game`, or the `Ss`, for `Sega`? This theme was designed to address those issues. Instead of displaying the system's controller, it instead displays the full system name. Also, minimal meta data is utilized.
 
 ![System Select](README/System%20Select.png) ![Detailed Game List](README/Detailed%20Game%20List.png)
 
