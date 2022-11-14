@@ -14,6 +14,7 @@
 		<themeColor>${colorRed}</themeColor>
 		<themeArtFolder>./art</themeArtFolder>
 		<themeFont>${themeArtFolder}/Cabin-Bold.ttf</themeFont>
+		<themeFontItalic>${themeArtFolder}/Cabin-BoldItalic.ttf</themeFontItalic>
 		<themeScrollSound>${themeArtFolder}/scroll.wav</themeScrollSound>
 		<themeGamelistFontSize>32</themeGamelistFontSize>
 	</variables>
@@ -54,8 +55,9 @@
 		</text>
 
 		<text name="systemText" extra="true">
-			<fontPath>${themeFont}</fontPath>
-			<fontSize>${themeGamelistFontSize}</fontSize>
+			<text>${system.fullName}</text>
+			<fontPath>${themeFontItalic}</fontPath>
+			<fontSize>36</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<pos>960 207</pos>
 			<origin>0.5 0.5</origin>
@@ -137,9 +139,11 @@
 	<!-- basic -->
 	<view name="basic">
 		<text name="systemText" extra="true">
-			<fontPath>${themeFont}</fontPath>
+			<text>${system.fullName}</text>
+			<fontPath>${themeFontItalic}</fontPath>
 			<fontSize>${themeGamelistFontSize}</fontSize>
 			<forceUppercase>true</forceUppercase>
+			<size>576 134</size>
 			<pos>1440 87</pos>
 			<origin>0.5 0.5</origin>
 			<color>${themeColor}</color>
@@ -164,10 +168,12 @@
 	<!-- detailed, video -->
 	<view name="detailed, video">
 		<text name="systemText" extra="true">
-			<fontPath>${themeFont}</fontPath>
+			<text>${system.fullName}</text>
+			<fontPath>${themeFontItalic}</fontPath>
 			<fontSize>${themeGamelistFontSize}</fontSize>
 			<forceUppercase>true</forceUppercase>
-			<pos>960 87</pos>
+			<size>576 134</size>
+			<pos>1440 87</pos>
 			<origin>0.5 0.5</origin>
 			<color>${themeColor}</color>
 		</text>
