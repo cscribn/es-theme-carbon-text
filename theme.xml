@@ -17,6 +17,7 @@
 		<themeFontItalic>${themeArtFolder}/Cabin-BoldItalic.ttf</themeFontItalic>
 		<themeScrollSound>${themeArtFolder}/scroll.wav</themeScrollSound>
 		<themeGamelistFontSize>32</themeGamelistFontSize>
+		<themeSystemFontSize>38</themeSystemFontSize>
 	</variables>
 
 	<view name="system">
@@ -56,8 +57,8 @@
 
 		<text name="systemText" extra="true">
 			<text>${system.fullName}</text>
-			<fontPath>${themeFontItalic}</fontPath>
-			<fontSize>36</fontSize>
+			<fontPath></fontPath>
+			<fontSize>60</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<pos>960 207</pos>
 			<origin>0.5 0.5</origin>
@@ -140,8 +141,7 @@
 	<view name="basic">
 		<text name="systemText" extra="true">
 			<text>${system.fullName}</text>
-			<fontPath>${themeFontItalic}</fontPath>
-			<fontSize>${themeGamelistFontSize}</fontSize>
+			<fontSize>${themeGamelistFontSizeFontSize}</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<size>576 134</size>
 			<pos>1440 87</pos>
@@ -169,7 +169,6 @@
 	<view name="detailed, video">
 		<text name="systemText" extra="true">
 			<text>${system.fullName}</text>
-			<fontPath>${themeFontItalic}</fontPath>
 			<fontSize>${themeGamelistFontSize}</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<size>576 134</size>
