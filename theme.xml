@@ -14,7 +14,6 @@
 		<themeColor>${colorRed}</themeColor>
 		<themeArtFolder>./art</themeArtFolder>
 		<themeFont>${themeArtFolder}/Cabin-Bold.ttf</themeFont>
-		<themeFontItalic>${themeArtFolder}/Cabin-BoldItalic.ttf</themeFontItalic>
 		<themeScrollSound>${themeArtFolder}/scroll.wav</themeScrollSound>
 		<themeGamelistFontSize>32</themeGamelistFontSize>
 		<themeSystemFontSize>38</themeSystemFontSize>
