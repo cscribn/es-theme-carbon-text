@@ -16,7 +16,6 @@
 		<themeFont>${themeArtFolder}/Cabin-Bold.ttf</themeFont>
 		<themeScrollSound>${themeArtFolder}/scroll.wav</themeScrollSound>
 		<themeGamelistFontSize>32</themeGamelistFontSize>
-		<themeSystemFontSize>38</themeSystemFontSize>
 	</variables>
 
 	<view name="system">
@@ -56,7 +55,6 @@
 
 		<text name="systemText" extra="true">
 			<text>${system.fullName}</text>
-			<fontPath></fontPath>
 			<fontSize>60</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<pos>960 207</pos>
@@ -140,7 +138,7 @@
 	<view name="basic">
 		<text name="systemText" extra="true">
 			<text>${system.fullName}</text>
-			<fontSize>${themeGamelistFontSizeFontSize}</fontSize>
+			<fontSize>${themeGamelistFontSize}</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<size>576 134</size>
 			<pos>1440 87</pos>
